@@ -1,3 +1,8 @@
+/*
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Playfair Display SC', serif;
+*/
 body {
     padding-top: 54px;
   }
@@ -7,3 +12,38 @@ body {
       padding-top: 56px;
     }
   }
+
+  .title {
+    font-family: 'Playfair Display SC', serif;
+  }
+  .title-lower {
+    font-family: 'Playfair Display', serif;
+  }
+  .text {
+    font-family: 'Nanum Myeongjo', serif;
+  }
+
+  .other-books {
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    flex-direction: row;
+  }
+
+  .books-div {
+    text-align: center;
+    margin: 0px 16px 20px 16px;
+    font-family: 'Playfair Display', serif;
+  }
+
+
+  .book-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .purchase-list {
+    list-style-type: none;
+  }
+
