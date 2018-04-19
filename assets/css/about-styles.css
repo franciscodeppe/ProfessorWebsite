@@ -1,0 +1,11 @@
+body {
+    height: 100vh;
+}
+
+.page-size {
+    min-height: 90%
+}
+
+.about-section {
+    padding: 50px;
+}
