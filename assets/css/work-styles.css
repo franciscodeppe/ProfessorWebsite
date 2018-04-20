@@ -1,0 +1,17 @@
+.container {
+
+}
+
+.works {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+  }
+
+  .books-div {
+    text-align: center;
+    margin: 0px 25px 30px 25px;
+    font-family: 'Playfair Display', serif;
+    max-width: 250px;
+  }

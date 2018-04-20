@@ -5,6 +5,7 @@ font-family: 'Playfair Display SC', serif;
 */
 body {
     padding-top: 54px;
+    
   }
   
   @media (min-width: 992px) {
@@ -23,11 +24,18 @@ body {
     font-family: 'Nanum Myeongjo', serif;
   }
 
+  .page-body {
+    
+  }
+
   .other-books {
     display: flex;
     align-items: center;
     justify-content:left;
     flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
   }
 
   .books-div {
